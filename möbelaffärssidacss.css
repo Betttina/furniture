@@ -1,0 +1,433 @@
+main {
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+#hero { background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);}
+
+
+a:hover {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+a {
+    color: #de764a;
+}
+
+.gulasoffan {
+
+    /* Sätt bredden till 100% av förälderns bredd */
+    max-width: 1500px; /* Sätt en maxbredd på 500px */
+    display: block; /* Visa bilden som ett block-element, så den hamnar på en egen rad */
+    margin: 0 auto; /* Centrera bilden horisontellt */
+}
+
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+form {
+    align-content: center;
+    /* Lägg till styling för ditt kontaktformulär här */
+}
+
+.contact-container {
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #e2e2e2;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: auto; /* Centrera horisontellt */
+    margin-top: 260px;
+    margin-bottom: 200px;
+}
+
+
+
+.contact-container h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    font-size: 16px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+#Logo {
+    width: 200px;
+    height: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #d5ccbd;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button, #btn {
+    display: block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #e59f7e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+button:hover {
+    background-color: #e8b58a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header.scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 2em;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search {
+
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+
+
+
+}
+
+
+.search input[type="text"] {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 400px;
+    background-image: linear-gradient(to right, #f9f9f9, #e8e8e8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.search button {
+    padding: 10px;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    top: 25%;
+    right: 0;
+    transform: translateY(-25%);
+
+}
+
+header {
+    background-color: rgb(182, 169, 156);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin-right: 120px;
+    margin-top: -220px;
+
+}
+#helaovan {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #988b74;
+}
+
+#helaovan.scroll {
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+#navbar {
+    margin-top: 50px;
+    position: fixed;
+}
+
+.menu a {
+    font-size: 32px;
+}
+
+nav a {
+    font-size: inherit;
+}
+
+ul.menu li a {
+    font-size: 24px !important;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-image {
+    height: 50px;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+img.product-image {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.product-description {
+    margin-top: 20px;
+}
+
+.product-description h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    margin-bottom: 30px;
+}
+
+.product-description button {
+    background-color: rgba(204, 151, 100, 0.99);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-description button:hover {
+    background-color: #b7813e;
+    color: #000;
+    border: 1px solid #000;
+}
+
+footer
+{
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin-top: 300px;
+    display: flex;
+    background-color: rgb(182, 169, 156);
+    font-size: larger;
+}
+
+
+.product-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+.about-content {
+    display:flex;
+    justify-content: space-evenly;
+    gap:1rem;
+}
+
+.about-us {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.div.samar, div.vårt, div.håll {
+    background-color: #d9d1ce;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    flex: 1; /* Tar upp lika mycket utrymme i raden */
+
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: 'Roboto';
+    src: url(C:\kod\gritacademy\Fonts) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
